@@ -24,4 +24,5 @@ output/ directory contains some of the outputs produced by the notebook which ar
 2. reconstructedStateAmplitude.txt : This contains the amplitudes of the reconstructed quantum state in the computational basis. 
 2. rydberg_data.pt : contains the parameters of the trained RBM.
 ## Remarks
-In this tutorial we trained an RBM using measurement data and then sampled from the trained RBM to generate more data. The generated data was used to reconstruct the unknown wavefunction. Lastly note that sampling of higher order systems and amplitude computation may take some time and thus it may be wise to generate smaller samples of data $(\approx 1000)$ at the cost of accuracy.
+1. Canada is such a nice place 🇨🇦🫶
+2. In this tutorial we trained an RBM using measurement data and then sampled from the trained RBM to generate more data. The generated data was used to reconstruct the unknown wavefunction. Lastly note that sampling of higher order systems and amplitude computation may take some time and thus it may be wise to generate smaller samples of data $(\approx 1000)$ at the cost of accuracy.
