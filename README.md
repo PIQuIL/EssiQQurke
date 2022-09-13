@@ -1,3 +1,4 @@
+![Arnold Sommerfeld School Physics meet AI](LMU.jpg)
 # EssiQQurke
 Tutorial scripts for 2022 Arnold Sommerfeld School Physics meets Artificial Intelligence
 
@@ -25,3 +26,10 @@ output/ directory contains some of the outputs produced by the notebook which ar
 2. rydberg_data.pt : contains the parameters of the trained RBM.
 ## Remarks
 In this tutorial we trained an RBM using measurement data and then sampled from the trained RBM to generate more data. The generated data was used to reconstruct the unknown wavefunction. Lastly note that amplitude computation may take some time and thus it may be wise to not do amplitude calculation for $nY>8$ systems.
+
+# Challenges
+* Train the RBM on larger system size data.  Adjust your hyperparameters to ensure high quality reconstruction.  How does the number of hidden units required for good representation scale?
+* Refer to the code tutorial for [QuCumber](https://github.com/PIQuIL/QuCumber/blob/master/examples/Tutorial4_DataGeneration_CalculateObservables/tutorial_sampling_observables.ipynb).  Calculate the following off-diagonal observables:
+* Calculate the expectation value of the in-plane magnetization $\langle \sigma^x \rangle$.  How do you confirm your result?
+* Calculate the second Renyi entropy $S_2$ as a function of the size of a sub-region A. Try for one detuning parameter far away from criticality, and one close to criticality.
+* At the critical point, extract the central charge $c$ of the Conformal Field Theory (CFT) corresponding to the critical detuning. Extract for different finite-size lattices, and extrapolate.  How does your result compare to the theoretical value?
